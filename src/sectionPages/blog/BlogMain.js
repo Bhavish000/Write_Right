@@ -8,21 +8,17 @@ export async function getServerSideProps({ req }) {
     };
   }
 
-
-import Page from '@/app/page';
 import SinglePostSix from '@/component/Blog/SinglePostSix';
 import MetaWidget from '@/component/Widget/MetaWidget';
 import RecentPost from '@/component/Widget/RecentPost';
 import Relatedblogs from '@/component/Widget/Relatedblogs';
-import { useRouter } from 'next/router';
-// import { headers } from 'next/headers';
 import React, { useEffect, useState } from 'react';
 
 const BlogMain = ({referer }) => {
     const [error, setError] = useState(null);
     const [BlogData, setBlogData] = useState('');
     const [searchValue, setsearchValue] = useState('');
-    
+
     console.log(" data " +referer)
     const Handle_blog_api = async () => {
         try {
