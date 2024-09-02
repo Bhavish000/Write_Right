@@ -3,16 +3,11 @@ import { Inter } from "next/font/google";
 import Header from "@/component/layout/header/header";
 import HomeMain from "@/sectionPages/home/homeMain";
 import FooterStyleTwo from "@/component/layout/footer/FooterStyleTwo";
-import { useEffect } from "react";
-import { headers } from "next/headers";
 // import Header from "@/component/layout/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const headersList = headers()
-  const referer = headersList.get('referer')
-  console.log(referer)
   return (
     <>
       <Head>

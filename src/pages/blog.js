@@ -8,10 +8,14 @@ import BlogMain from '@/sectionPages/blog/BlogMain';
 // import BlogMain from '@/sectionPage/blog/BlogMain';
 // import bannerbg from '@/styles/img/blog/2.jpg';
 import Head from 'next/head';
+import { headers } from 'next/headers';
 import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 
 const Blog = () => {
+    const headersList = headers()
+    const referer = headersList.get('referer')
+    console.log(referer)
  
     return (
         <React.Fragment>
