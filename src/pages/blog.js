@@ -12,12 +12,7 @@ import { useRouter } from 'next/router';
 import React, { useEffect } from 'react';
 
 const Blog = () => {
-    useEffect(() => {
-        console.log('data ' + document.referrer);
-        alert('data '+document.referrer)
-        // if (document.referrer) {
-        // }
-      }, []);
+ 
     return (
         <React.Fragment>
             <Head>
