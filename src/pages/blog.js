@@ -8,8 +8,16 @@ import BlogMain from '@/sectionPages/blog/BlogMain';
 // import BlogMain from '@/sectionPage/blog/BlogMain';
 // import bannerbg from '@/styles/img/blog/2.jpg';
 import Head from 'next/head';
-import React from 'react';
+import { useRouter } from 'next/router';
+import React, { useEffect } from 'react';
+
 const Blog = () => {
+    useEffect(() => {
+        console.log('data ' + document.referrer);
+        alert('data '+document.referrer)
+        // if (document.referrer) {
+        // }
+      }, []);
     return (
         <React.Fragment>
             <Head>
