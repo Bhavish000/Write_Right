@@ -1,10 +1,9 @@
 import React from 'react'
-// import format from '@/styles/img/tips/formating.jpg'
 import img2 from '@/styles/img/tips/maintain_speed.jpg'
 import img3 from '@/styles/img/tips/slant_uniform.jpg'
 import img4 from '@/styles/img/tips/space.jpg'
 import img5 from '@/styles/img/tips/tips_print_cursive.jpg'
-import img6 from '@/styles/img/tips/Uniform_size.jpg'
+import img6 from '@/styles/img/tips/uniform_size.jpg'
 import img1 from '@/styles/img/tips/right_img.jpg'
 import Image from 'next/image'
 function HandwritingTips() {
@@ -33,7 +32,7 @@ function HandwritingTips() {
 										<div class="team-wrapper mb-30">
 											<div class="team-img pos-rel">
 												<div class="fix">
-													<Image src={img5} alt="" />
+													<Image src={img5} alt="WriteRight" />
 												</div>
 												<div class="team-02-icon">
 
@@ -53,7 +52,7 @@ function HandwritingTips() {
 										<div class="team-wrapper mb-30">
 											<div class="team-img pos-rel">
 												<div class="fix">
-													<Image src={img6} alt="" />
+													<Image src={img6} alt="WriteRight" />
 
 												</div>
 												<div class="team-02-icon">
@@ -74,7 +73,7 @@ function HandwritingTips() {
 										<div class="team-wrapper mb-30">
 											<div class="team-img pos-rel">
 												<div class="fix">
-													<Image src={img3} alt="" />
+													<Image src={img3} alt="WriteRight" />
 
 												</div>
 												<div class="team-02-icon">
@@ -95,7 +94,7 @@ function HandwritingTips() {
 										<div class="team-wrapper mb-30">
 											<div class="team-img pos-rel">
 												<div class="fix">
-													<Image src={img4} alt="" />
+													<Image src={img4} alt="WriteRight" />
 
 												</div>
 												<div class="team-02-icon">
@@ -116,7 +115,7 @@ function HandwritingTips() {
 										<div class="team-wrapper mb-30">
 											<div class="team-img pos-rel">
 												<div class="fix">
-													<Image src={img1} alt="" />
+													<Image src={img1} alt="WriteRight" />
 
 												</div>
 												<div class="team-02-icon">
