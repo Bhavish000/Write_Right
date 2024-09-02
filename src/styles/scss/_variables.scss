@@ -1,0 +1,137 @@
+// @font-face {
+//     font-family: "Poppins";
+//     src: url("../fonts/Poppins-Regular.ttf");
+//     font-display: swap;
+//     font-weight: normal;
+//     font-style: normal;
+//   }
+// Font Family
+$bodyFont: "roboto";
+$titleFont: "roboto";
+
+// Colors
+$primaryColor:     #21a7d0;
+$secondaryColor:   #273c66;
+$secondaryColor2:  #1c335f;
+$titleColor:       #111111;
+$titleColor2:      #112958;
+$titleColor3:      #394459;
+$titleColor4:      #031a3d;
+$titleColor5:      #101010;
+$titleColor6:      #333333;
+$titleColor7:      #171F32;
+$whiteColor:       #ffffff;
+$bodyColor:        #505050;
+$bodyColor2:       #363636;
+$bodyColor3:       #54647b;
+$grayColor:        #f3f8f9;
+$graybg:           #f3f8f9;
+$secbg:            #f3f8f9;
+$metaColor:        #54647b;
+$orangeColor:      #ff5421;
+$purpleColor:      #c701f1;
+$yellowColor:      #f4bf00;
+$greenColor:       #0c8b51;
+$lightOrangeColor : #fd6c24;
+// Gradient Backgrounds
+$gradient-bg: linear-gradient(180deg, $secondaryColor 0%, $primaryColor 100%);
+
+// Common
+$transition: all .3s ease;
+
+// Responsive Variables
+$laptop: 'only screen and (max-width: 1600px)'; 
+$xxl: 'only screen and (min-width: 1601px) and (max-width: 1900px)';
+$xl : 'only screen and (max-width: 1366px)';
+$lg : 'only screen and (max-width: 1199px)';
+$only_lg : 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$lg_to_sm : 'only screen and  (max-width: 1199px) and (min-width: 768px)';
+$md:'only screen and (max-width: 991px)';
+$sm: 'only screen and (max-width: 767px)';
+$xs: 'only screen and (max-width: 575px)';
+$mobile: 'only screen and (max-width: 480px)';
+
+
+
+
+
+// Removeable --------------------------------------------------------
+$white: #ffffff;
+$black: #333333;
+$grey:#f8f8f8;
+$grey-2:#f4f9fc;
+$theme-color: #096bd8;
+$theme-color-2: #6100b3;
+$body-color: #696969;
+$hr-border-color:#eceff8;
+$footer-bg:#091b29;
+$tab-bg:#1a1430; 
+$tab-color:#aeabba;
+$black-soft:#7e7e7e;
+$link-color:#e4ecf3;
+$border-color:#eaedff;
+$heading-color: #333333;
+
+$c_reg: 'cerebri_sansregular';
+$c_med: 'cerebri_sansmedium';
+$c_sem: 'cerebri_sanssemibold';
+$c_bold: 'cerebri_sansbold';
+
+
+
+
+
+
+
+
+
+
+
+
+// Font Family
+$roboto: 'roboto', ;
+$hind: 'hind', ;
+$ibm: 'IBM Plex Sans', sans-serif;
+
+// Colors ---------------
+$white: #ffffff;
+$black1: #062a35;
+$black2: #141414;
+$black-soft: #333333;
+$black-soft2: #417b8d;
+$red: #e25a44;
+$blue: #1e2c8a;
+$blue-dark: #0e1851;
+$blue-dark2: #000846;
+$blue-02: #0c3542;
+$blue-soft: #11202d;
+$blue-soft2: #4582ff;
+$blue-soft3: #1771e6;
+$blue-soft4: #1da1f2;
+$blue-soft5: #3662ff;
+$blue-soft6: #1a245d;
+$grey:#eaf4f7;
+$grey-soft:#6e838a;
+$grey-soft2:#f5f6fa;
+$green:#03b664;
+$red:#fd1818;
+$theme-color: #ea5822;
+$body-text-color: #708389;
+$body-text-color2: #a3b5c3;
+$body-text-color3: #94a7b5;
+$body-text-color4: #3662ff;
+$body-text-color5: #999ec4;
+$body-text-color6: #6a6a6a;
+$body-text-color7: #757575;
+$body-text-color8: #667e85;
+$hr-border-color:#eceff8;
+$hr-border-color2:#e2e2e2;
+$hr-border-color3:#4f4d80;
+$hr-border-color4:#252f6c;
+$hr-border-color5:#5a7efe;
+$hr-border-color6:#1d303f;
+$hr-border-color7:#ebebeb;
+$hr-border-color8:#dedede;
+
+// Heading Color
+$heading-color: #062a35;

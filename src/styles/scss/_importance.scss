@@ -1,0 +1,42 @@
+.rs-importance{
+   &.style1{
+    // background-color: #C7DEE4;
+    padding-block: 50px;
+    .heading{
+        text-align: center;
+        .title{
+            font-size: 40px;
+            font-weight: 700;
+        }
+        .desc{
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+   }
+
+   &.main-box{
+    padding-block: 40px;
+    .box{
+        background-color: #F5F5F5;
+        
+        width: 360px;
+        // padding: 3px;
+        .title{
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .desc{
+            font-size: 17px;
+            font-weight: 400;
+            color: #708389;
+            text-align: justify;
+        }
+    }
+    .boxes{
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+    }
+   }
+}

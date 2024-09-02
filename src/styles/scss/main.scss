@@ -1,0 +1,55 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: Educavo – Education React Template
+    Description: Educavo – Education React Template is a clean and modern Education Template. It’s suitable for any university, online course, workshop, college, school, kindergarten, course hub or any kind of educational institution. This template includes different homepage demo with 30+ pages carefully designed blocks, which are easy to edit and customize to fit your needs. Template is perfect solution for the create of unique educational websites.
+    Author: rs-theme
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+01. Theme default CSS
+2. header
+3. about
+4. slider
+5. footer
+6. service
+7. team
+8. cta
+9. project
+10. testimonial
+11. contact
+12. carrer
+13. blog
+14.shop
+
+-----------------------------------------------------------------------------------*/
+
+@import 'variables';
+@import 'mixins';
+@import 'common';
+@import 'header';
+@import 'banner';
+@import 'hero';
+// @import 'slider';
+@import 'about';
+@import 'cta';
+@import 'importance';
+@import 'course';
+@import 'contact';
+@import 'testimonial';
+@import 'categories';
+@import 'instructor';
+@import 'moment';
+@import 'mobile-menu';
+@import 'responsive';
+@import 'spacing';
+@import 'video';
+@import 'blog';
+@import 'faq';
+@import 'team';
+@import 'footer';
+@import '../fonts/flaticon';
+@import '../fonts/fontAwesome';
