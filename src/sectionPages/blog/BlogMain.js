@@ -1,25 +1,14 @@
-export async function getServerSideProps({ req }) {
-    const referer = req.headers.referer || 'No referrer available';
-  
-    return {
-      props: {
-        referer,
-      },
-    };
-  }
-
 import SinglePostSix from '@/component/Blog/SinglePostSix';
 import MetaWidget from '@/component/Widget/MetaWidget';
 import RecentPost from '@/component/Widget/RecentPost';
 import Relatedblogs from '@/component/Widget/Relatedblogs';
 import React, { useEffect, useState } from 'react';
 
-const BlogMain = ({referer }) => {
+const BlogMain = () => {
     const [error, setError] = useState(null);
     const [BlogData, setBlogData] = useState('');
     const [searchValue, setsearchValue] = useState('');
 
-    console.log(" data " +referer)
     const Handle_blog_api = async () => {
         try {
             const response = await fetch(`https://tt.mastermindschool.co.in/api/wr_blog_page_list?search=${searchValue}`);
@@ -91,5 +80,7 @@ const BlogMain = ({referer }) => {
         </div>
     );
 }
+
+
 
 export default BlogMain;
